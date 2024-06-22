@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: #FEECC8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fashion{
+    background: #fff;
+    margin: 50px 0;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 20px;
+}
+/* =====1st step start */
+.nav_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 30px 50px;
+    text-align: center;
+}
+.nav_main .nav_middle_options ul{
+    list-style: none;
+    display: flex;
+    gap: 59px;
+}
+.nav_main .nav_middle_options ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    font-size: 24px;
+    transition: all linear .5s;
+}
+.nav_main .nav_middle_options ul li a:hover{
+    color: #FDBB57;
+}
+.nav_main .nav_buttons{
+    display: flex;
+    gap: 10px;
+}
+.nav_main .nav_buttons a{
+    text-decoration: none;
+    width: 120px;
+    height: 56px;
+    background: #FDBB57;
+    border: 1px solid #FFD687;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 57px;
+    font-weight: 600;
+    color: #000;
+    font-size: 24px;
+    transition: all linear .3s;
+}
+.nav_main .nav_buttons a:hover{
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* ------------first step end------- */
+/* =========2nd step start======= */
+.main_banner{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.main_banner .left_side h1{
+    width: 449px;
+    font-weight: 600;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+}
+.main_banner .left_side p{
+    width: 531px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.main_banner .left_side a{
+    display: inline-block;
+    text-decoration: none;
+    width: 319px;
+    height: 86px;
+    border-radius: 10px;
+    background: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 86px;
+    margin-top: 76px;
+}
+/* ----------2nd step end-------- */
+/* -----3rd step start-------- */
+.container{
+    padding: 40px;
+}
+.new_collections h1{
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+.new_collections p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+.images_area{
+    display: flex;
+    gap: 98px;
+    margin-top: 40px;
+    text-align: center;
+}
+.images_area .images1{
+    width: 349px;
+    height: 402px;
+    background: url(./image/images/collection_1.png);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.images_area .images1 a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    width: 315.45px;
+    height: 57.13px;
+    border-radius: 20px;
+    background: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    line-height: 57.13px;
+    position: absolute;
+    bottom: 44px;
+    left: -517px;
+    transition: all linear .5s;
+}
+.images_area .images1:hover a{
+    left: 17px;
+}
+.images_area .images2{
+    width: 349px;
+    height: 402px;
+    background: url(./image/images/collection_2.png);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.images_area .images2 a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    width: 315.45px;
+    height: 57.13px;
+    border-radius: 20px;
+    background: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    line-height: 57.13px;
+    position: absolute;
+    bottom: 44px;
+    left: -517px;
+    transition: all linear .5s;
+}
+.images_area .images2:hover a{
+    left: 17px;
+}
+.images_area .images3{
+    width: 349px;
+    height: 402px;
+    background: url(./image/images/collection_3.png);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.images_area .images3 a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    width: 315.45px;
+    height: 57.13px;
+    border-radius: 20px;
+    background: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    line-height: 57.13px;
+    position: absolute;
+    bottom: 44px;
+    left: -517px;
+    transition: all linear .5s;
+}
+.images_area .images3:hover a{
+    left: 17px;
+}
+/* ----------3rd step end--------- */
+/* =====4th step start */
+.body_area{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: left;
+}
+.body_heading{
+    width: 310px;
+    height: 162px;
+}
+.body_heading h2{
+    font-size: 40px;
+}
+.body_para{
+    width: 443px;
+    height: 186px;
+}
+.body_para p{
+    font-size: 24px;
+    font-weight: 600;
+}
+/* -----4th step end */
+/* 5th area  start */
+.card{
+    display: flex;
+}
+.card img{
+    width: 500px;
+    position: relative;
+    top: 50px;
+    left: 45px;
+}
+.new_fashion{
+    display: flex;
+    align-items: flex-end;
+}
+.body_heading{
+    width: 387px;
+    height: 187px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+.body_area{
+    margin-left: 120px;
+}
+.body_para{
+    width: 443px;
+    height: 186px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+.counter{
+    width: 900px;
+    height: 200px;
+    background: #FEECC8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px 30px 0;
+    border-radius: 20px;
+    margin-left: 390px;
+}
+.coun_area{
+    width: 250px;
+    height: 135px;
+    display: flex;
+}
+.count_body{
+    margin-right: 30px;
+}
+.count_body h2{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Podkova", serif;
+}
+.count_body p{
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+.coun_area .coun_stick{
+    width: 1px;
+    height: 135px;
+    background: #000;
+}
+/* 5th area end */
+/* =====footar start */
+.footer_area{
+    background: #CFA485;
+    display: flex;
+    padding: 50px 0;
+    border-radius: 0 0 20px 20px;
+}
+.product_body{
+    width: 457px;
+    margin-left: 100px;
+}
+.product_body .product_heading{
+    width: 315px;
+    height: 162px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Frank Ruhl Libre", serif;
+}
+.product_body .product_par{
+    width: 430px;
+    height: 270px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+.product_body input{
+    width: 319px;
+    height: 86px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+}
+.product_img{
+    width: 366px;
+    height: 545px;
+    margin-right: 26px;
+    position: relative;
+}
+.product_img_body{
+    width: 366px;
+    height: 130px;
+    background: #fff;
+    position: absolute;
+    bottom: 5px;
+}
+.product_img_body .star{
+    width: 180px;
+    height: 20px;
+    list-style: none;
+    display: block;
+    position: absolute;
+    left: -20px;
+}
+.product_img_body .star li{
+    display: inline-block;
+    margin-left: 5px;
+    color: #FFAF37;
+}
+.product_img_body .h6{
+    width: 161px;
+    height: 30px;
+    left: 27px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+}
+.product_img_body .p{
+    position: absolute;
+    left: 27px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #C4C4C4;
+    top: 40px;
+}
+.product_img_body .p span{
+    color: #000;
+    margin-left: 15px;
+}
+
+/* -----footar end */
